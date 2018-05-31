@@ -19,9 +19,47 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: #111;
+    background-color: #6ec5e9;
 }
 
 .active {
-    background-color: #4d79ff;
+    background-color: #2c51df;
 }
+
+#pic
+{ 
+margin:auto;
+display: block;
+width: 45%;
+
+}
+
+#words
+{
+	font-size:30pt;
+	font-family: Lucida Console, sans-serif;
+	 text-align: center;
+	 margin-left: 10%;
+	 margin-right: 10%;
+}
+
+#about
+{
+	font-size:35pt;
+	font-family: Lucida Console, sans-serif;
+	 text-align: center;
+	 margin-left: 15%;
+	 margin-right: 15%;
+}
+
+#game:visited
+{
+    color: red;
+}
+
+#quiz:visited
+{
+    color: red;
+}
+
+
