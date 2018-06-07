@@ -15,9 +15,15 @@
   <li style="float:right"><a class="active" href="About.html">About</a></li>
 </ul>
 
-<APPLET CODE="DisplayCode.class" CODE=" " Width = "200" Height = "200" >
-tictactoe
-</APPLET>
+<a href="TicTacToe.jnlp">Game</a>
+<script src="https://www.java.com/js/deployJava.js"></script>
+<script>
+		var dir = location.href.substring(0,
+            location.href.lastIndexOf('/')+1);
+        var url = dir + "TicTacToe.jnlp";
+        deployJava.createWebStartLaunchButton(url, '1.7.0');
+		</script>
+
 
 <p id=words>
 This game is like <a id="game" href="https://www.wikihow.com/Play-Tic-Tac-Toe">Tic-Tac-Toe</a> but every time someone wins you get health information
