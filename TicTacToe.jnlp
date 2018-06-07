@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- href attribute contains relative path;
+     codebase attribute not specified -->
+<jnlp spec="1.0+" codebase=
+"https://docs.oracle.com/javase/tutorialJWS/samples/deployment/webstart_ComponentArch_DynamicTreeDemo" href="tictactoe.jnlp">
+    <information>
+        <title>Tic Tac Toe</title>
+    </information>
+    <resources>
+        <!-- Application Resources -->
+        <j2se version="1.7+"
+              href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href=
+            "TicTacToe.jar" 
+             main="true" />
+    </resources>
+    <applet-desc 
+         name="TicTacToe"
+         main-class="DisplayCode"
+         width="300"
+         height="300">
+     </applet-desc>
+     <update check="background"/>
+</jnlp>
