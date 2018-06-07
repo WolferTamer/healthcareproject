@@ -15,7 +15,7 @@
     </resources>
     <applet-desc 
          name="TicTacToe"
-         main-class="DisplayCode.class"
+         main-class="DisplayCode"
          width="300"
          height="300">
      </applet-desc>
