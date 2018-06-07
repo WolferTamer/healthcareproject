@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- href attribute contains relative path;
      codebase attribute not specified -->
-<jnlp spec="1.0+" href="TicTacToe.jnlp">
+<jnlp spec="1.0+" codebase="https://github.com/WolferTamer/healthcareproject/blob/master/" href="TicTacToe.jnlp">
     <information>
         <title>Tic Tac Toe</title>
     </information>
