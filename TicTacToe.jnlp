@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- href attribute contains relative path;
      codebase attribute not specified -->
-<jnlp spec="1.0+" codebase="https://github.com/WolferTamer/healthcareproject/blob/master/" href="TicTacToe.jnlp">
+<jnlp spec="1.0+" codebase="https://github.com/WolferTamer/healthcareproject/blob/master" href="TicTacToe.jnlp">
     <information>
         <title>Tic Tac Toe</title>
     </information>
@@ -15,7 +15,7 @@
     </resources>
     <applet-desc 
          name="TicTacToe"
-         main-class="DisplayCode.class"
+         main-class="DisplayCode"
          width="300"
          height="300">
      </applet-desc>
